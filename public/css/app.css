@@ -1,0 +1,255 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#app h1,
+#app h2,
+#app h3,
+#app h4,
+#app .nav {
+  text-transform: uppercase;
+}
+
+.dc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 70px;
+}
+
+.dc-header .head-logo img {
+  width: 60%;
+  padding: 10px 0px;
+}
+
+.dc-header .nav ul {
+  display: flex;
+  list-style: none;
+  font-size: 1.2em;
+}
+
+.dc-header .nav ul li {
+  padding: 0px 20px;
+  margin: 0px 20px;
+}
+
+.dc-header .nav ul li a {
+  text-decoration: none;
+  color: black;
+  line-height: 90px;
+  padding: 0px 20px;
+}
+
+.dc-header .open {
+  border-bottom: #0067F5 5px solid;
+}
+
+.dc-header .open a:visited {
+  color: #0067F5;
+}
+
+.footer-nav {
+  background-image: url("/images/footer-bg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.footer-nav .footer-bg-img {
+  height: 300px;
+  overflow: hidden;
+  padding-right: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-nav .footer-bg-img img {
+  width: 100%;
+  height: 150%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.nav-links ul .inner-ul h3 {
+  margin-top: 10px;
+}
+
+.nav-links ul li {
+  list-style: none;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: rgb(161, 161, 161);
+  font-size: 1.2em;
+}
+
+.footer-signup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #2A2A2A;
+}
+
+.footer-signup a.button {
+  border: 2px solid #0075F7;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  color: white;
+}
+
+.footer-signup .social-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-right: 50px;
+}
+
+.footer-signup .social-icons ul {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-signup .social-icons a {
+  color: #0075F7;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer-signup .social-icons li {
+  list-style: none;
+}
+
+.dc-main {
+  color: white;
+  background-color: #1A1A1A;
+}
+
+.dc-main .Jumbo {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.dc-main .Jumbo img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.dc-main .Jumbo h2 {
+  font-size: 50px;
+}
+
+.MyComicsList {
+  position: relative;
+}
+
+.MyComicsList h2 {
+  padding: 10px 20px;
+  background-color: #0075F7;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  top: -40px;
+  left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.mydc-list {
+  background-color: #1A1A1A;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.mydc-list .btn-load {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.mydc-list .btn-load a {
+  padding: 10px 20px;
+  background-color: #0075F7;
+  color: white;
+  text-decoration: none;
+}
+
+.mydc-list .mydc-inner ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mydc-list .mydc-inner ul li {
+  list-style: none;
+  width: 16.6666666667%;
+  height: 300px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.mydc-list .mydc-inner ul li img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.mydc-list .mydc-inner ul li h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.dc-shop {
+  background-color: #0075F7;
+  padding: 50px 20px;
+}
+
+.dc-shop ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.dc-shop ul li {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  height: 80px;
+}
+
+.dc-shop ul li img {
+  height: 100%;
+}
+
+.dc-shop ul li a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
